@@ -1,0 +1,10 @@
+{
+    "attributes": [
+        { "trait_type": "Frontend", "value": "98/100" },
+        { "trait_type": "Backend", "value": "95/100" },
+        { "trait_type": "Blockchain", "value": "97/100" }
+    ],
+    "description": "A great Software Engineer.",
+    "image": "ipfs://QmSpqtGcqBsbSywaGmr2oYewMTz6CyfjCwtyrp56wpuen3",
+    "name": "ICGreborns"
+}
