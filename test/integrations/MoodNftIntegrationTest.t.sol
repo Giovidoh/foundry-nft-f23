@@ -28,11 +28,11 @@ contract MoodNftIntegrationTest is Test {
 
     function testFlipTokenToSad() public {
         string memory expectedURI = string(
-            string.concat(
+            abi.encodePacked(
                 "data:application/json;base64,",
                 Base64.encode(
                     bytes(
-                        string.concat(
+                        abi.encodePacked(
                             '{"name": "',
                             moodNft.name(),
                             '", "description": ',

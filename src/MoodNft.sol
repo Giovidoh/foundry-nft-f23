@@ -64,11 +64,11 @@ contract MoodNft is ERC721 {
 
         return
             string(
-                string.concat(
+                abi.encodePacked(
                     _baseURI(),
                     Base64.encode(
                         bytes(
-                            string.concat(
+                            abi.encodePacked(
                                 '{"name": "',
                                 name(),
                                 '", "description": ',
